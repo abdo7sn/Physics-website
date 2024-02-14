@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equation9</title>
+    <link rel="stylesheet" href="equation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <nav id="nav">
+            <div class="logo">
+                <h1>Phys<span>ics</span></h1>
+            </div>
+            <ul>
+                <li><a href="/wamp64/www/physics/physics_wip/index.html">Home</a></li>
+                <li><a href="#Equations">Equations</a></li>
+                <li><a href="#Tutorials">Tutorials</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Servises">Servises</a></li>
+            </ul>
+        </nav> 
+        <div class="main">
+            <div class="main_content">
+                <div class="main_text">
+                    <h2>Second Kinematic<br><span>Equation</span></h2>
+                    <p>
+                        The second equation of the equations of motion with a constant acceleration is d = vi t + 1/2 a t 2 , 
+                        which is an equation that calculates the distance traveled by the body using the initial speed Vi, time t, and acceleration a.  
+                    </p>
+                </div>
+                <div class="low">
+                    <p>
+                        To calculate acceleration from the equation of second motion, you must have the distance d, the initial velocity Vi, and the time t. Then we subtract the distance from the product of the initial velocity by the time, then divide them by the time squared and multiply them by 2.....</p>
+                    <h1>a = d - Vi*t/t2 * 2</h1>
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <div class="main_form"><h1>a</h1></div>
+            <label for="">Vi:</label>
+            <input type="text" id="Vi" name="Vi" placeholder="Initial Velocity                                  m/s">
+            <br><br>
+            <label for="">t:</label>
+            <input type="text" id="t" name="t" placeholder="The Time                                             s">
+            <br><br>
+            <label for="">d:</label>
+            <input type="text" id="d" name="d" placeholder="The Distance                                     m">
+            <br><br>
+            <input type="submit" id="btn" class="btnclass" onclick="Ca()" value="Calculate">
+            <h3>The Solution</h3>
+            <div class="solution">
+                <p id="dome"> </p>
+            </div>
+            <div class="other">
+                <h2>Other</h2>
+                <a href="equationVi.html"><input type="submit"  class="btnclass" value=" Vi "></a>
+                <a href="equationt.html"><input type="submit" class="btnclass" value=" t "></a>
+                <a href="equation9.html"><input type="submit" class="btnclass" value=" d "></a>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!--Equations-->
+    <div class="equations" id="Equations">
+        <h1>More Equations</h1>
+        <div class="box" id="box">
+            <div class="card" id="card">
+                <div class="equations_text">
+                    <h2>The resultant vertical force (Fy)</h2>
+                    <p>combining the sum of the vertical components of all the forces and the sum of all the horizontal components of the forces....</p>
+                    <h3>Fy = F sin θ°</h3>
+                    <a class="btn" href="file:///C:/wamp64/www/physics/physics_wip/equation3/equation3.html">Enter</a>
+                </div>
+            </div>
+            <div class="card" id="card">
+                <div class="equations_text">
+                    <h2>Acceleration calculation</h2>
+                    <p>Fcceleration (a) is the change in velocity (Δv) over the change in time (Δt) represented by the equation a = Δv/Δt ...</p>
+                    <h3>a = Δv/Δt</h3>
+                    <a class="btn" href="file:///C:/wamp64/www/physics/physics_wip/equation7/equation7.html">Enter</a>
+                </div>
+            </div>
+            <div class="card" id="card">
+                <div class="equations_text">
+                    <h2>The resultant of horizontal forces (Fx)</h2>
+                    <p>combining the sum of the vertical components of all the forces and the sum of all the horizontal components of the forces ....</p>
+                    <h3>Fx = F cos θ°</h3>
+                    <a class="btn" href="file:///C:/wamp64/www/physics/physics_wip/equation4/equation4.html">Enter</a>
+                </div>
+            </div>
+            <div class="card" id="card">
+                <div class="equations_text">
+                    <h2>Vector multiplication(SM)</h2>
+                    <p>Dot product – also known as the “scalar product”, a binary operation that takes two vectors and returns a scalar quantity ...</p>
+                    <h3>A.B = |A||B|cos θ</h3>
+                    <a class="btn" href="file:///C:/wamp64/www/physics/physics_wip/equation5/equation5.html">Enter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+
+    <footer>
+        <div class="footer_main">
+            <div class="tag">
+                <h1>Contact</h1>
+                <a href="#"><i class="fa-solid fa-house"></i>123/Colombo/Sri Lanka</a>
+                <a href="#"><i class="fa-solid fa-phone"></i>+20 01115800528</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>abdalrhmanalhasn2008@gmail.com</a>
+            </div>
+
+            <div class="tag">
+                <h1>Get Help</h1>
+                <a href="#" class="center">FAQ</a>
+                <a href="#" class="center">Solution</a>
+                <a href="#" class="center">Returns</a>
+                <a href="#" class="center">Payment Options</a>
+            </div>
+
+            <div class="tag">
+                <h1>Our Servises</h1>
+                <a href="#" class="center">Chemistry</a>
+                <a href="#" class="center">Biological</a>
+                <a href="#" class="center">Math</a>
+                <a href="#" class="center">Artificial intelligence</a>
+            </div>
+
+            <div class="tag">
+                <h1>Follw Us</h1>
+                <div class="social_link">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>                    
+                </div>
+            </div>
+
+            <div class="tag">
+                <h1>Newsletter</h1>
+                <div class="search_bar">
+                    <input type="text" placeholder="You email id here">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
