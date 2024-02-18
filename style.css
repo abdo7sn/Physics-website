@@ -311,3 +311,28 @@ footer .footer_main .tag .search_bar button{
     color: black;
     cursor: pointer;
 }
+
+@media (max-width: 600px){
+    section nav{
+        display: flex;
+        position: fixed;
+        width: 32%;
+        z-index: 100;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 0 0 8px rgba(0,0,0,0.6);
+        background: #0a060f;
+    }
+    section nav .logo{
+        font-size: 20px;
+        cursor: pointer;
+        position: relative;
+        left: 0%;
+    }
+    section nav ul li{
+        position: relative;
+        left: -7%;
+        display: inline-block;
+        margin: 2px 0px;
+    }
+}
